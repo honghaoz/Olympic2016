@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "hello, world!"
+    # https://www.rio2016.com/en/medal-count-country
   end
 
 end

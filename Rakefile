@@ -4,3 +4,9 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+desc "Run server on Cloud9"
+task :cloud9 do
+  puts "Open: http://olympic2016-honghaoz.c9users.io"
+  sh "rails server -b $IP -p $PORT"
+end

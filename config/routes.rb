@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root 'application#hello'
 
   get 'api/medal'
+  get 'api/medal_by_country'
 
 end

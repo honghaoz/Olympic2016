@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
         <head>
           <meta charset="UTF-8">
           <title>Rio 2016 Olympic Games - Medals API</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <script async defer src="https://buttons.github.io/buttons.js"></script>
         </head>
 

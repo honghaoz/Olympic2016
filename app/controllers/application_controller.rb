@@ -3,7 +3,6 @@ class ApplicationController < ActionController::Base
 
   def hello
     render text: "Hello, Rio 2016 Olympic Games."
-    # https://www.rio2016.com/en/medal-count-country
   end
 
 end

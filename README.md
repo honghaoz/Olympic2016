@@ -4,7 +4,7 @@ Check [here](https://olympic2016.herokuapp.com)
 
 #### Available APIs
 - [api/medal_by_country ](https://olympic2016.herokuapp.com/api/medal_by_country)
-  - Response: 
+
   ```json
   {
     "results": [

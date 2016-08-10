@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Olympic2016</title>
+    <meta charset="UTF-8">
+    <title><%= yield :title%></title>
+    <%= yield :head %>
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>

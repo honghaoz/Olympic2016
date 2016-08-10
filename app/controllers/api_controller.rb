@@ -18,14 +18,15 @@ class ApiController < ApplicationController
 	    silver_count = country.at_css(".col-5").text
 	    bronze_count = country.at_css(".col-6").text
 	    medal_count = country.at_css(".col-7").text
+
 	    {
-	      'rank': rank,
+	      'rank': rank.to_i,
 	      'country_code': country_code,
 	      'country_name': country_name,
-	      'gold_count': gold_count,
-	      'silver_count': silver_count,
-	      'bronze_count': bronze_count,
-	      'medal_count': medal_count
+	      'gold_count': gold_count.to_i,
+	      'silver_count': silver_count.to_i,
+	      'bronze_count': bronze_count.to_i,
+	      'medal_count': medal_count.to_i
 	    }
     end
 
